@@ -1,0 +1,149 @@
+body{
+    font-family: Raleway;
+    width: 930px;
+    height: 643px;
+    background-color: #36384D;
+     margin-left: 300px;
+     margin-top: 70px;
+}
+/*Box Properties*/
+.secondbox img{
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+/*.secondbox{
+    background-color: aqua;
+}*/
+.rown{
+    background-color: white;
+    border-radius: 34px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+/* mail Div*/
+.in-put::placeholder {color: #242742;}
+
+.inputBox {
+  position: relative;
+  left: 54px;
+  top: 35px;
+}
+
+.inputBox input {
+    width: 320px;
+  padding: 15px 20px;
+  outline: none;
+  background: transparent;
+  border-radius: 5px;
+  color: #242742;
+  border: 1px solid #000000;
+  font-weight: 600;
+  font-family: Raleway;
+  font-size: 15px;
+}
+
+.inputBox span {
+  position: absolute;
+  left: 0;
+  font-weight: 600;
+  font-family: Raleway;
+  font-size: 15px;
+  transform: translateX(14px) translateY(-7.5px);
+  padding: 0 6px 1px 5px;
+  border-radius: 2px;
+  background: #141313;
+  letter-spacing: 1px;
+  border: 3px solid #41a619;
+  color: #e8e8e8;
+}
+/*     button      */
+a{
+  color: #e8e8e8;
+  text-decoration:none;
+}
+button { 
+ position: relative;
+ top: 65px;
+ left: 54px;
+ font-weight: 700;
+ font-family: Raleway;
+ width: 361.6px;
+ padding: 17px 40px;
+ border-radius: 50px;
+ border: 0;
+ color: hsl(0, 0%, 100%);
+ background-color: #FF6155;
+ box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+ letter-spacing: 1.5px;
+ text-transform: none;
+ font-size: 15px;
+ transition: all .5s ease;
+}
+
+button:hover {
+ letter-spacing: 3px;
+ background-color: hsl(255, 77%, 50%);
+ color: hsl(0, 0%, 100%);
+ box-shadow: rgb(239, 22, 22) 0px 7px 29px 0px;
+}
+
+button:active {
+ letter-spacing: 3px;
+ background-color: hsl(320, 74%, 29%);
+ color: hsl(0, 0%, 100%);
+ box-shadow: rgb(47, 220, 24) 0px 0px 0px 0px;
+ transform: translateY(10px);
+ transition: 100ms;
+}
+/*Text Properties*/
+@font-face {
+    font-family: Raleway; /* Гарнитура шрифта */
+    src: url(Raleway.ttf); /* Путь к файлу со шрифтом */
+}
+.hash{
+    display: grid;
+    grid-template-columns: 0.105fr  1fr;
+    
+}
+h1{
+    margin-top: 60px;
+    margin-bottom: 5px; 
+    grid-column-start: 2;
+    color: #36384D;
+    font-size: 48px;
+    font-family: Raleway;
+    font-weight: 800;
+    word-wrap: break-word;
+    text-align: left;
+}
+p{
+ position: relative;
+ left: 45px;
+ color: #36384D;
+ font-size: 15px;
+ font-family: Raleway;
+ font-weight: 600;
+ word-wrap: break-word;
+    text-align: left;
+}
+.container {
+  margin-left: 36px;
+  display: grid;
+  grid-template-columns: 0.05fr 0.05fr 1fr;
+  align-items: center;
+}
+.container .img {
+  grid-column: 1;
+}
+.container p1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  color: #36384D;
+  font-size: 15px;
+  font-family: Raleway;
+  font-weight: 600;
+  grid-column: 3;
+  text-align: left;
+}
